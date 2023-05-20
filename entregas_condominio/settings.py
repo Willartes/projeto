@@ -57,7 +57,7 @@ ROOT_URLCONF = "entregas_condominio.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'entregas/templates/entregas')],
+        "DIRS": [os.path.join(BASE_DIR, 'entregas/templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
